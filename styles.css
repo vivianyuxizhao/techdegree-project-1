@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #666699;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,7 +52,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #99ccff;
 }
 
 header {
@@ -78,11 +78,12 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: #666699;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  
   
 } 
 .location {
@@ -97,8 +98,8 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-bottom: 10px solid #ccc;
+  border-radius: 10px;
   transition: all .5s;
 }
 .card:hover {
@@ -223,4 +224,35 @@ a.social:hover {
 }
 .expcard:hover {
   border-color: #666699;
+}
+
+.purple-heading{
+  color: #666699;
+  margin: auto;
+
+}
+
+.life-img {
+  margin-top: 50px;
+  
+  border-radius: 30%;
+  border: 3px solid #99ccff;
+  transition: all .5s;
+}
+.life-img:hover{
+  transform: scale(1.2) rotate(20deg);
+}
+
+.blue-heading{
+  color: #99ccff;
+  margin: auto;
+
+}
+
+.email-link:hover {
+  color: #99ccff;
+}
+
+.life{
+  margin: auto;
 }
